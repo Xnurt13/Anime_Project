@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a1d7ca8-6315-40f0-8225-183fc6ab77d7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Anime" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bGYCoF1wq21BM5SSAGcHGvTP9V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/JAVA/mysql-connector-java-8.0.19.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.Admin">
+    <configuration name="Admin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Admin" />
+      <module name="Anime" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Anime" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Server" />
+      <module name="Anime" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Test" />
+      <module name="Anime" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.User" />
+      <module name="Anime" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Admin" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.User" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Admin" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.User" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a1d7ca8-6315-40f0-8225-183fc6ab77d7" name="Default Changelist" comment="" />
+      <created>1588259772782</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588259772782</updated>
+      <workItem from="1588422996244" duration="16958000" />
+      <workItem from="1588490089465" duration="2464000" />
+      <workItem from="1588573413983" duration="75000" />
+      <workItem from="1588573900934" duration="159000" />
+      <workItem from="1588600860365" duration="7466000" />
+      <workItem from="1588776515691" duration="147000" />
+      <workItem from="1588831984368" duration="883000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1588608720532">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.821@0.0.1536.821" timestamp="1588608720532" />
+    <state x="566" y="296" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588432453603">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="566" y="296" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.821@0.0.1536.821" timestamp="1588432453603" />
+    <state x="473" y="152" key="FileChooserDialogImpl" timestamp="1588573990386">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="473" y="152" key="FileChooserDialogImpl/0.0.1536.821@0.0.1536.821" timestamp="1588573990386" />
+    <state width="1493" height="209" key="GridCell.Tab.0.bottom" timestamp="1588609161608">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.0.bottom/0.0.1536.821@0.0.1536.821" timestamp="1588609161608" />
+    <state width="1493" height="209" key="GridCell.Tab.0.center" timestamp="1588609161608">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.0.center/0.0.1536.821@0.0.1536.821" timestamp="1588609161608" />
+    <state width="1493" height="209" key="GridCell.Tab.0.left" timestamp="1588609161608">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.0.left/0.0.1536.821@0.0.1536.821" timestamp="1588609161608" />
+    <state width="1493" height="209" key="GridCell.Tab.0.right" timestamp="1588609161608">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state width="1493" height="209" key="GridCell.Tab.0.right/0.0.1536.821@0.0.1536.821" timestamp="1588609161608" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1588573992516">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.821@0.0.1536.821" timestamp="1588573992516" />
+    <state x="425" y="186" key="run.anything.popup" timestamp="1588604775885">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="425" y="186" key="run.anything.popup/0.0.1536.821@0.0.1536.821" timestamp="1588604775885" />
+    <state x="431" y="142" width="672" height="678" key="search.everywhere.popup" timestamp="1588602536856">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="431" y="142" width="672" height="678" key="search.everywhere.popup/0.0.1536.821@0.0.1536.821" timestamp="1588602536856" />
+  </component>
+</project>
