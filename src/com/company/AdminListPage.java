@@ -18,7 +18,7 @@ public class AdminListPage extends Container {
         setLayout(null);
         setSize(700,700);
 
-        label=new JLabel("List of club");
+        label=new JLabel("List of Ivents");
         label.setBounds(320,10,150,60);
         add(label);
 
@@ -37,6 +37,7 @@ public class AdminListPage extends Container {
         area = new JTextArea();
         area.setSize(600,400);
         area.setLocation(50,50);
+        area.setEditable(false);
         add(area);
     }
 

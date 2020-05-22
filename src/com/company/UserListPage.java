@@ -29,6 +29,7 @@ public class UserListPage extends Container {
         area = new JTextArea();
         area.setSize(600,400);
         area.setLocation(50,50);
+        area.setEditable(false);
         add(area);
 
 
@@ -53,7 +54,7 @@ public class UserListPage extends Container {
                     ex.printStackTrace();
                 }
                 JOptionPane.showMessageDialog(null,
-                        "добро пожаловать в наш клуб!!!");
+                        "PLEASENT PASTIME!!!");
             }
 
         });

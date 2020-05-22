@@ -104,7 +104,31 @@ public class User {
         }
     }
 
+/*public static void send(String message){
+        PackageData pd = new PackageData();
+        pd.setOperationType("Send_Mess");
+        pd.setSmth(message);
+        try{
+            outputStream.writeObject(pd);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
 
+}
+
+public static String read(){
+        String temp = "";
+        PackageData pd = new PackageData();
+        pd.setOperationType("Read_Mess");
+        try{
+            outputStream.writeObject(pd);
+            pd = (PackageData) inputStream.readObject();
+            temp = (String) pd.getSmth();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return temp;
+    }*/
 
     public static void addOrders(Orders orders){
         PackageData pd=new PackageData();
@@ -176,6 +200,8 @@ public class User {
         frame = new UserMainFrame();
         frame.setVisible(true);
     }
+
+
 }
 
 

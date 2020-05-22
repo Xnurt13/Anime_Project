@@ -1,11 +1,17 @@
 package com.company;
 
+import javax.lang.model.type.ArrayType;
 import java.net.*;
 import java.sql.*;
+import java.util.ArrayList;
 
 public class Server {
     public static Connection connection;
+
+    static ArrayList<String> chat;
+
     public static void main(String[] args) {
+        chat = new ArrayList<String>();
         try{
             connectToDb();
             ServerSocket ss = new ServerSocket(8999);
@@ -38,6 +44,16 @@ public class Server {
         }
     }
 
+    public static void AdMess(String message){
+        chat.add(message);
+    }
+    public static String[] ReadMess(){
+        String[] temp = new String[chat.size()];
+        for(int i=0; i<chat.size();i++){
+            temp[i]=chat.get(i);
+        }
+        return temp;
+    }
 }
 
 

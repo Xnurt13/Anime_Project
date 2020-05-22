@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class Orders implements Serializable {
 
     private Long id;
-    private int animesId;
+    private int animeId;
     private String name;
     private String surname;
 
@@ -13,7 +13,7 @@ public class Orders implements Serializable {
 
     public Orders(Long id, int animesId, String name, String surname) {
         this.id = id;
-        this.animesId = animesId;
+        this.animeId = animesId;
         this.name = name;
         this.surname = surname;
     }
@@ -22,8 +22,8 @@ public class Orders implements Serializable {
         this.id = id;
     }
 
-    public void setAnimesId(int animesId) {
-        this.animesId = animesId;
+    public void setAnimeId(int animeId) {
+        this.animeId = animeId;
     }
 
     public void setName(String name) {
@@ -38,8 +38,8 @@ public class Orders implements Serializable {
         return id;
     }
 
-    public int getAnimesId() {
-        return animesId;
+    public int getAnimeId() {
+        return animeId;
     }
 
     public String getName() {
@@ -52,12 +52,7 @@ public class Orders implements Serializable {
 
     @Override
     public String toString() {
-        return "Orders{" +
-                "id=" + id +
-                ", animesId=" + animesId +
-                ", name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                '}';
+        return "IVENT " + "#" + getAnimeId() + " " + getName();
     }
 }
 

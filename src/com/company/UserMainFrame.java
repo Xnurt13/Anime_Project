@@ -8,6 +8,7 @@ public class UserMainFrame extends JFrame {
     public UserListPage listPage;
     public UserAdd addUser;
     public UserPostPage checkPost;
+    /*public UserChatPage chatPage;*/
 
 
     public UserMainFrame(){
@@ -46,6 +47,12 @@ public class UserMainFrame extends JFrame {
         checkPost.setLocation(0,0);
         checkPost.setVisible(false);
         add(checkPost);
+
+        /*chatPage = new UserChatPage();
+        chatPage.setLocation(0,0);
+        chatPage.setVisible(false);
+        add(chatPage);*/
+
 
         repaint();
     }

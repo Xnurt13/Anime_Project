@@ -43,7 +43,7 @@ public class UserAdd extends Container {
         add(welcome);
 
 
-        registr = new JButton("Registr");
+        registr = new JButton("Register");
         registr.setBounds(340, 310, 100, 50);
         registr.setForeground(black);
         registr.setBackground(gray);
@@ -54,7 +54,7 @@ public class UserAdd extends Container {
         });
         add(registr);
 
-        signIn = new JButton("Sign_in");
+        signIn = new JButton("Sign in");
         signIn.setBounds(340, 250, 100, 50);
         signIn.setForeground(black);
         signIn.setBackground(gray);

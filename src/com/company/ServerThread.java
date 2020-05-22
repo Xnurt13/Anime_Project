@@ -27,6 +27,25 @@ public class ServerThread extends Thread {
             PackageData pd = null;
             while ((pd = (PackageData) inputStream.readObject()) != null) {
 
+                /*if(pd.getOperationType().equals("Send_mess")){
+                    try {
+                        String s = (String) pd.getSmth();
+                        send(s);
+                    }catch (Exception e){
+                        e.printStackTrace();
+                    }
+                }
+
+                if(pd.getOperationType().equals("Read_Mess")){
+                    try{
+                        PackageData PD = new PackageData();
+                        PD.setSmth(read());
+                        outputStream.writeObject(PD);
+                    }catch (Exception e){
+                        e.printStackTrace();
+                    }
+                }*/
+
                 if (pd.getOperationType().equals("Add")) {
                     try {
                         Animes animes = pd.getAnime();
@@ -105,7 +124,7 @@ public class ServerThread extends Thread {
                 }
                 else if (pd.getOperationType().equals("Delete")) {
                     Long id = pd.getId();
-                    deleteBookToDB(id);
+                    deleteFromDB(id);
                 } else {
                     break;
                 }
@@ -207,6 +226,7 @@ public class ServerThread extends Thread {
         return allcomm;
     }
 
+
     public void addNewsPost(NewsPost post){
         try {
             PreparedStatement ps=connection.prepareStatement("insert into newspost(id,title,content) values(null,?,?)");
@@ -238,7 +258,7 @@ public class ServerThread extends Thread {
         try {
             PreparedStatement ps = connection.prepareStatement("insert into orders(id,animesId,name,surname) values(null,?,?,?)");
 
-            ps.setInt(1,orders.getAnimesId());
+            ps.setInt(1,orders.getAnimeId());
             ps.setString(2,orders.getName());
             ps.setString(3,orders.getSurname());
             ps.executeUpdate();
@@ -263,7 +283,7 @@ public class ServerThread extends Thread {
         return animes;
     }
 
-    public void deleteBookToDB(Long id){
+    public void deleteFromDB(Long id){
         try{
             PreparedStatement ps=connection.prepareStatement("DELETE FROM anime WHERE id=?");
             ps.setLong(1,id);
@@ -273,5 +293,17 @@ public class ServerThread extends Thread {
         }
     }
 
+    public void send(String message){
+        Server.AdMess(message);
+    }
+
+    public String read(){
+        String[] temp = Server.ReadMess();
+        String temp1 ="";
+        for (int i=0;i<temp.length;i++){
+            temp1+=temp[i] + "\n";
+        }
+        return temp1;
+    }
 }
 

@@ -42,10 +42,6 @@ public class Animes implements Serializable {
 
     @Override
     public String toString() {
-        return "Animes{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", time='" + time + '\'' +
-                '}';
+        return "IVENT " + "#" + id + " " + name + " " + "time=" + time;
     }
 }

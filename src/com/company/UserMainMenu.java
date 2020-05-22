@@ -13,12 +13,13 @@ public class UserMainMenu extends Container {
     public JButton list;
     public JButton exit;
     public JButton Posts;
+    public JButton chat;
 
     public UserMainMenu() {
         setSize(700, 700);
         setLayout(null);
 
-        addOrders = new JButton("Add_Club");
+        addOrders = new JButton("Registration for the event");
         addOrders.setLocation(200, 150);
         addOrders.setSize(300, 30);
         addOrders.addActionListener(new ActionListener() {
@@ -31,7 +32,7 @@ public class UserMainMenu extends Container {
         });
         add(addOrders);
 
-        list = new JButton("List_Club");
+        list = new JButton("Queue for an event");
         list.setLocation(200, 190);
         list.setSize(300, 30);
         list.addActionListener(new ActionListener() {
@@ -40,6 +41,16 @@ public class UserMainMenu extends Container {
             }
         });
         add(list);
+
+        /*chat = new JButton("Chat");
+        chat.setBounds(200,290,300,30);
+        chat.addActionListener((e)->{
+            setVisible(false);
+            User.frame.chatPage.setVisible(true);
+        });
+        add(chat);*/
+
+        /*UPDATE GIT CHECK*/
 
 
         exit = new JButton("EXIT");

@@ -49,7 +49,7 @@ public class UserRegistr extends Container {
             }
         });
         add(back);
-        registr=new JButton("Registr");
+        registr=new JButton("Register");
         registr.setBounds(340,350,100,50);
         registr.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
